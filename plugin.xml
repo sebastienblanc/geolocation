@@ -1,0 +1,20 @@
+<plugin name='geolocation' version='0.1' grailsVersion='1.2.0 &gt; *'>
+  <author>Sebastien Blanc</author>
+  <authorEmail>scm.blanc@gmail.com</authorEmail>
+  <title>Geolocation plugin</title>
+  <description>\
+This plugin adds geolocation support to your web application.
+</description>
+  <documentation>http://grails.org/plugin/geolocation</documentation>
+  <resources>
+    <resource>BuildConfig</resource>
+    <resource>DataSource</resource>
+    <resource>UrlMappings</resource>
+    <resource>GeolocationController</resource>
+    <resource>org.grails.plugins.geolocation.Coordinates</resource>
+    <resource>org.grails.plugins.geolocation.GeoPosition</resource>
+    <resource>GeolocationTagLib</resource>
+  </resources>
+  <dependencies />
+  <behavior />
+</plugin>
