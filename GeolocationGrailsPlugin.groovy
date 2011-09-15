@@ -18,7 +18,7 @@ class GeolocationGrailsPlugin {
     def authorEmail = "scm.blanc@gmail.com"
     def title = "Geolocation support"
     def description = '''\\
-Brief description of the plugin.
+This plugin adds HTML5 geolocation support and offers some utlity methods to calculate distances and range checks
 '''
     // URL to the plugin's documentation
     def documentation = "http://grails.org/plugin/geolocation"
