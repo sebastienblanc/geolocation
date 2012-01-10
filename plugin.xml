@@ -1,21 +1,32 @@
-<plugin name='geolocation' version='0.2' grailsVersion='1.3.7 &gt; *'>
-  <author>Your name</author>
-  <title>Plugin summary/headline</title>
+<plugin name='geolocation' version='0.3' grailsVersion='1.3.7 &gt; *'>
+  <author>Sebastien Blanc</author>
+  <authorEmail>scm.blanc@gmail.com</authorEmail>
+  <title>Geolocation support</title>
   <description>\
-Brief description of the plugin.
+This plugin adds HTML5 geolocation support and offers some utlity methods to calculate distances and range checks
 </description>
   <documentation>http://grails.org/plugin/geolocation</documentation>
+  <type>GeolocationGrailsPlugin</type>
   <resources>
-    <resource>BuildConfig</resource>
-    <resource>Config</resource>
-    <resource>DataSource</resource>
-    <resource>UrlMappings</resource>
     <resource>GeolocationController</resource>
     <resource>org.grails.plugins.geolocation.Coordinates</resource>
     <resource>org.grails.plugins.geolocation.GeoPosition</resource>
     <resource>geolocation.GeolocationService</resource>
     <resource>GeolocationTagLib</resource>
   </resources>
-  <dependencies />
+  <repositories>
+    <repository name='grailsCentral' url='http://plugins.grails.org' />
+    <repository name='http://repo.grails.org/grails/plugins' url='http://repo.grails.org/grails/plugins/' />
+    <repository name='http://repo.grails.org/grails/core' url='http://repo.grails.org/grails/core/' />
+    <repository name='grailsCore' url='http://svn.codehaus.org/grails/trunk/grails-plugins' />
+    <repository name='mavenCentral' url='http://repo1.maven.org/maven2/' />
+  </repositories>
+  <dependencies>
+    <runtime>
+      <dependency group='com.javadocmd' name='simplelatlng' version='1.0.0' />
+    </runtime>
+  </dependencies>
+  <plugins />
+  <runtimePluginRequirements />
   <behavior />
 </plugin>
