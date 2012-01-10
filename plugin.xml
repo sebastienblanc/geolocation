@@ -1,4 +1,4 @@
-<plugin name='geolocation' version='0.3' grailsVersion='1.3.7 &gt; *'>
+<plugin name='geolocation' version='0.4' grailsVersion='1.3.7 &gt; *'>
   <author>Sebastien Blanc</author>
   <authorEmail>scm.blanc@gmail.com</authorEmail>
   <title>Geolocation support</title>
