@@ -1,16 +1,6 @@
 package org.grails.plugin.geolocation
 
 class Coordinates {
-GeoPosition position
-    static constraints = {
-      latitude(nullable:true)
-      longitude(nullable:true)
-      altitude(nullable:true)
-      accuracy(nullable:true)
-      altitudeAccuracy(nullable:true)
-      heading(nullable:true)
-      speed(nullable:true)
-    }
     double latitude
     double longitude
     double altitude
@@ -18,5 +8,16 @@ GeoPosition position
     double altitudeAccuracy
     double heading
     double speed 
- static belongsTo = GeoPosition
+	
+    static belongsTo = [position:GeoPosition]
+	
+    static constraints = {
+	latitude(nullable:true)
+	longitude(nullable:true)
+	altitude(nullable:true)
+	accuracy(nullable:true)
+	altitudeAccuracy(nullable:true)
+	heading(nullable:true)
+	speed(nullable:true)
+    }  
 }
