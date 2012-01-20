@@ -8,11 +8,11 @@ This plugin adds HTML5 geolocation support and offers some utlity methods to cal
   <documentation>http://grails.org/plugin/geolocation</documentation>
   <type>GeolocationGrailsPlugin</type>
   <resources>
-    <resource>GeolocationController</resource>
-    <resource>org.grails.plugins.geolocation.Coordinates</resource>
-    <resource>org.grails.plugins.geolocation.GeoPosition</resource>
-    <resource>geolocation.GeolocationService</resource>
-    <resource>GeolocationTagLib</resource>
+    <resource>org.grails.plugin.geolocation.GeolocationController</resource>
+    <resource>org.grails.plugin.geolocation.Coordinates</resource>
+    <resource>org.grails.plugin.geolocation.GeoPosition</resource>
+    <resource>org.grails.plugin.geolocation.GeolocationService</resource>
+    <resource>org.grails.plugin.geolocation.GeolocationTagLib</resource>
   </resources>
   <repositories>
     <repository name='grailsCentral' url='http://plugins.grails.org' />

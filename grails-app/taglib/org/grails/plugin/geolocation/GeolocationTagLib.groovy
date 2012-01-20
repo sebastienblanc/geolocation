@@ -1,4 +1,4 @@
-
+package org.grails.plugin.geolocation;
 
 class GeolocationTagLib {
 	static namespace = "geolocation"
