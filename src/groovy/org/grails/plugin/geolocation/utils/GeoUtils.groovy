@@ -1,7 +1,6 @@
-package org.grails.plugins.geolocation.utils
+package org.grails.plugin.geolocation.utils
 
-import org.grails.plugins.geolocation.GeoPosition;
-
+import org.grails.plugin.geolocation.GeoPosition
 import com.javadocmd.simplelatlng.LatLng;
 
 class GeoUtils {
