@@ -1,6 +1,6 @@
-import org.grails.plugin.geolocation.GeolocationService;
-import org.grails.plugin.geolocation.GeoPosition
+import geolocation.GeolocationService;
 
+import org.grails.plugins.geolocation.GeoPosition
 class GeolocationGrailsPlugin {
     // the plugin version
     def version = "0.4"

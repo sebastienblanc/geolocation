@@ -1,4 +1,7 @@
-package org.grails.plugin.geolocation
+package org.grails.plugins.geolocation
+
+
+import org.grails.plugins.geolocation.Coordinates;
 
 class GeoPosition {
 	Coordinates coords
