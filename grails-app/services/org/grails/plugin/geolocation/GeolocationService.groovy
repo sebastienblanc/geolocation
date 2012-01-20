@@ -1,13 +1,6 @@
-package geolocation
+package org.grails.plugin.geolocation;
+
 import org.codehaus.groovy.grails.commons.GrailsApplication;
-
-
-
-
-
-import org.grails.plugins.geolocation.GeoPosition;
-import org.grails.plugins.geolocation.utils.GeoUtils;
-
 import com.javadocmd.simplelatlng.LatLngTool;
 import com.javadocmd.simplelatlng.util.LatLngConfig;
 import com.javadocmd.simplelatlng.util.LengthUnit;
