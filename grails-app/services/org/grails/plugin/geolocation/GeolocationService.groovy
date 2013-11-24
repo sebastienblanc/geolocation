@@ -4,6 +4,7 @@ import org.codehaus.groovy.grails.commons.GrailsApplication;
 import com.javadocmd.simplelatlng.LatLngTool;
 import com.javadocmd.simplelatlng.util.LatLngConfig;
 import com.javadocmd.simplelatlng.util.LengthUnit;
+import org.grails.plugin.geolocation.utils.GeoUtils;
 
 class GeolocationService {
 	def grailsApplication
